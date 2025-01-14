@@ -18,8 +18,3 @@ phases:
       # Push the Docker image to Amazon ECR
       - echo "Pushing Docker image to Amazon ECR..."
       - docker push 101538135044.dkr.ecr.ap-southeast-1.amazonaws.com/docker-repo:latest
-
-artifacts:
-  files:
-    - "**/*"
-  discard-paths: yes
